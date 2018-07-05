@@ -1,0 +1,83 @@
+
+.container{
+    margin: 5px;
+    padding: 10px;
+    width: 970px;
+    background-color: #1b335d;  /*color picker used to find color on CD site */
+}
+
+.header{
+    min-height: 50px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #cf2f36;  /*color picker used to find color on CD site */
+}
+
+h1{
+    color: #c2d6eb; /*color picker used to find color on CD site */
+    padding: 10px;
+}
+
+.navPanel{
+    width: 20%;
+    background-color: #2a7d8c; /*color picker used to find color on CD site */
+    border-radius: 20px;
+    min-height: 200px;
+    padding-right: 1px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.topList{
+    list-style-type: none;
+    position: relative;
+
+}
+
+ul {
+    list-style: none;
+    font-size: 13px;
+}
+
+li.whiteBullet::before{
+    content: "•"; /*ALT 0149 to type a bullet!! :)*/
+    padding-right: 8px;
+    color: #c2d6eb; 
+}
+
+ul.circle{
+    list-style-type: circle; /*creates an empty circle bullet*/
+    color: #c2d6eb;
+}
+
+a{
+    color: #63d7e4; /*color picker used to find color on CD site */
+}
+
+.main{
+    background-color: #0e1822; /*color picker used to find color on CD site */
+    border-radius: 20px;
+    padding: 8px;
+    display: inline-block;
+    vertical-align: top;
+    width: 75%;
+    margin-left: 27px;
+    color: #c2d6eb /*color picker used to find color on CD site */
+}
+
+p{
+    font-size: 13px;
+}
+
+.footer{
+    font-size: 13px;
+    color: #c2d6eb;
+    background-color:#5d6673;
+    border-radius: 20px;
+    padding: 8px;
+    margin-top: 15px;
+}
+
+.purple{
+    color: #798efe /*color picker used to find color on CD site */
+}
